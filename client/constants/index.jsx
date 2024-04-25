@@ -58,7 +58,7 @@ export const featured={
 		lng:38.2145602,
 		lat:-85.5324269,
 		address:'434 second street',
-		starts:4,
+		stars:4,
 		reviews:'4.4k',	
 		category:'Fast Food',
 		dishes:[
@@ -90,7 +90,7 @@ export const featured={
 		lng:38.2145602,
 		lat:-85.5324269,
 		address:'434 second street',
-		starts:4,
+		stars:4,
 		reviews:'4.4k',	
 		category:'Fast Food',
 		dishes:[
@@ -122,7 +122,7 @@ export const featured={
 		lng:38.2145602,
 		lat:-85.5324269,
 		address:'434 second street',
-		starts:4,
+		stars:4,
 		reviews:'4.4k',	
 		category:'Fast Food',
 		dishes:[

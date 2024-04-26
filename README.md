@@ -3,36 +3,35 @@
 ## client
 > npm run web
 
-
 ## HomeScreen
 实现Home屏幕内容
 搜索栏 目前未实现搜索功能
-![pic-1](img/pic-1.png) 
+<div class="pic" align=center><img src="./img/pic-1.png"60%" height="40%"></div> 
 类别栏 目前未实现分类显示
-![pic-2](img/pic-2.png) 
+<div class="pic" align=center><img src="./img/pic-2.png"60%" height="40%"></div> 
 Home屏幕内容
-![pic-3](img/pic-3.png) 
+<div class="pic" align=center><img src="./img/pic-3.png"60%" height="40%"></div> 
 店铺内容
-![pic-4](img/pic-4.png) 
+<div class="pic" align=center><img src="./img/pic-4.png"60%" height="40%"></div> 
 添加购物车
-![pic-5](img/pic-5.png) 
+<div class="pic" align=center><img src="./img/pic-5.png"60%" height="40%"></div> 
 购物车卡片
-![pic-6](img/pic-6.png) 
+<div class="pic" align=center><img src="./img/pic-6.png"60%" height="40%"></div> 
 
 ##deliveryScreen
 实现delivery屏幕内容
-![pic-7](img/pic-7.png) 
+<div class="pic" align=center><img src="./img/pic-7.png"60%" height="40%"></div> 
 店铺位置显示信息
-![pic-8](img/pic-8.png) 
+<div class="pic" align=center><img src="./img/pic-8.png"60%" height="40%"></div> 
 ## redux
 使用Redux进行点击操作
 ## sanity
 使用后台sanity添加内容信息
-![pic-9](img/pic-9.png) 
-![pic-10](img/pic-10.png) 
-![pic-11](img/pic-11.png) 
+<div class="pic" align=center><img src="./img/pic-9.png"60%" height="40%"></div> 
+<div class="pic" align=center><img src="./img/pic-10.png"60%" height="40%"></div> 
+<div class="pic" align=center><img src="./img/pic-11.png"60%" height="40%"></div> 
 使用Grog查询数据内容
-![pic-11](img/pic-12.png) 
+<div class="pic" align=center><img src="./img/pic-12.png"60%" height="40%"></div> 
 使用Sanity作为后端数据存储以及内容发布
 使用Grog来查询获取sanity获取数据内容
 运行

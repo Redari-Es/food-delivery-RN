@@ -17,7 +17,7 @@ export default function HomeScreen() {
 
  useEffect(()=>{
   getFeaturedRestaurants().then(data=>{
-    console.log('got data:',data)
+    // console.log('got data:',data)
     setFeaturedCategories(data)
   })
  }) 

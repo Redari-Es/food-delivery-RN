@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useEffect,useLayoutEffect,useState } from 'react';
 import { SafeAreaView, ScrollView, Text, TextInput, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import * as Icon from "react-native-feather"
 import {themeColors} from '../theme'
 import Categories from '../components/Categories';
 import FeaturedRow  from '../components/FeaturedRow';
-import {featured} from '../constants/index'
+import {categories, featured} from '../constants/index'
+import { getFeaturedRestaurants } from '../api';
+import { useNavigation } from '@react-navigation/native';
 export default function HomeScreen() {
+  const [featuredCategories,setFeaturedCategories]=useState([])
+  const navigation =useNavigation()
+  useLayoutEffect(()=>{
+    navigation.setOptions({headerShown:false})
+  })
+
+ useEffect(()=>{
+  getFeaturedRestaurants().then(data=>{
+    console.log('got data:',data)
+    setFeaturedCategories(data)
+  })
+ }) 
+
   return (
     // 区别View可以让内容不被覆盖
     <SafeAreaView className="bg-white">
@@ -37,11 +52,11 @@ export default function HomeScreen() {
       <View className="mt-5">
         <View className="mt-5">
           {
-            [featured,featured,featured].map((item,index)=>{
+            featuredCategories?.map((item,index)=>{
               return(
                 <FeaturedRow
                   key={index}
-                  title={item.title}
+                  title={item.name}
                   restaurants={item.restaurants }
                   description={item.description }
                 />

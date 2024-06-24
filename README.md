@@ -1,4 +1,10 @@
 # food-delivery-RN
+## 主要技术栈
+- React-Native
+- TailWindCSS
+- Redux
+- Sanity
+- Grog
 
 ## client
 > npm run web
